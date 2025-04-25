@@ -2,6 +2,6 @@
 
 const dataFetch = async()  => {
     return fetch(Url).then(res => res.json()).
-    then(data => console.log(data));
+    then(data => data);
 }
 export default dataFetch;
